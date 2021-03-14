@@ -24,7 +24,7 @@
 # the case. Therefore, you don't have to disable it anymore.
 #
 
-FROM golang:1.10.3 AS base
+FROM golang:1 AS base
 # FIXME(vdemeester) this is kept for other script depending on it to not fail right away
 # Remove this once the other scripts uses something else to detect the version
 ENV GO_VERSION 1.10.3
